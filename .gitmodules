@@ -1,0 +1,3 @@
+[submodule "themes/jelly"]
+	path = themes/jelly
+	url = https://github.com/kfein/hexo-theme-jelly
