@@ -1,15 +1,15 @@
 ---
-title: protoc
+title: proto
 ---
 
 ```protobuf
 syntax = "proto3";
 
-// 命名空间
+// 命名空间,需要与go_package的文件夹名字相同
 package service;
 
 // 作用于 --go_out=
-option go_package = "./..";
+option go_package = "./../../service";
 
 // protoc --proto_path=IMPORT_PATH --cpp_out=DST_DIR --java_out=DST_DIR --python_out=DST_DIR --go_out=DST_DIR --ruby_out=DST_DIR --objc_out=DST_DIR --csharp_out=DST_DIR path/to/file.proto
 message Student{
