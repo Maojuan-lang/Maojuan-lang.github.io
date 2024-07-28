@@ -5,6 +5,9 @@ title: protoc
 ```protobuf
 syntax = "proto3";
 
+// 命名空间
+package service;
+
 // 作用于 --go_out=
 option go_package = "./..";
 
