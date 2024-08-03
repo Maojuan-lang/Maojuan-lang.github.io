@@ -1,5 +1,5 @@
 ---
-title：byte数字转可读文字Python
+title: byte数字转可读文字Python
 ---
 
 ```python
