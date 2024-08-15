@@ -1,5 +1,6 @@
 ---
 title: byte数字转可读文字Python
+date: 2024-08-03
 ---
 
 ```python

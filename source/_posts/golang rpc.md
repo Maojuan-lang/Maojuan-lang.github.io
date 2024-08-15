@@ -1,5 +1,6 @@
 ---
 title: golang rpc
+date: 2024-08-02
 ---
 
 ```go

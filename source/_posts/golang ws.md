@@ -1,5 +1,6 @@
 ---
 title: golang ws
+date: 2024-08-01
 ---
 
 ```

@@ -1,5 +1,6 @@
 ---
 title: golang mysql
+date: 2024-08-02
 ---
 
 ```
