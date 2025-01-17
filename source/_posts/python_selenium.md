@@ -15,6 +15,9 @@ wb = load_workbook('output.xlsx')
 ws = wb.active  # 获取活动工作表
 
 for page_num in range(84,154):
+    # option = selenium.webdriver.chrome.options.Options()
+    # option.binary_location = r"C:\Users\chrome\chrome-headless-shell.exe"
+    # driver = webdriver.Chrome(options=option)
     driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get(f"https://www.baidu.com/{page_num}")
     articles = driver.find_elements(By.XPATH,"/html/body/article")
