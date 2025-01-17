@@ -9,6 +9,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
+# 安装driver，压缩包，将其解压，复制到Python的与Scripts目录同级文件夹下
 # 创建一个新的工作簿
 wb = load_workbook('output.xlsx')
 ws = wb.active  # 获取活动工作表
