@@ -59,5 +59,6 @@ leancloud_visitors:
 # friends: false
 friends:
   github: https://github.com/Maojuan-lang
+  zhzhongshi: https://zhzhongshi.github.io
 # a brief introduction to yourself
 aboutme: I'm a developer.
